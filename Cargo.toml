@@ -4,7 +4,8 @@ members = [
   "helpers/common",
   "helpers/mdbook-exercise-linker",
   "helpers/mdbook-link-shortener",
-  "helpers/ticket_fields",
+  "helpers/ticket_fields", "word_exercises/method_syntax", "word_exercises/structs",
+  "word_exercises/understanding_ownership_exercises/exercises"
 ]
 resolver = "2"
 
