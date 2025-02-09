@@ -1,4 +1,4 @@
-finally, I found a way to learn rust in a way that I like to learn it. Rustlings was too difficult for me for now (will return to it soon).
+Finally, I found a way to learn rust in a way that I like to learn it. Rustlings was too difficult for me for now (will return to it soon).
 So this github repo works like this:
 1. I go through each section of the rust book one number (meaning unit like 1, 2, 3, etc.) at a time.
 2. Then ask chat gpt to generate exercises for me based on that section. It (usually) doesn't give me any starter code, so the answer i usually have to completely from completely nothing.
