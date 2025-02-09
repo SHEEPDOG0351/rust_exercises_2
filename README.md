@@ -1,41 +1,9 @@
-# Learn Rust, one exercise at a time
+finally, I found a way to learn rust in a way that I like to learn it. Rustlings was too difficult for me for now (will return to it soon).
+So this github repo works like this:
+1. I go through each section of the rust book one number (meaning unit like 1, 2, 3, etc.) at a time.
+2. Then ask chat gpt to generate exercises for me based on that section. It (usually) doesn't give me any starter code, so the answer i usually have to completely from completely nothing.
+3. In the word_exercises folder, is where the chat gpt generated problems are, each folder named what the rust file within's unit is on.
 
-You've heard about Rust, but you never had the chance to try it out?\
-This course is for you!
+This is my favorite way to learn, as you have no starter code, and have to generate a program using certain tools to have the desired output. I hate having starter code, and spending 10 minutes just reading the rustlings !assert_eq statements just to see what I'm supposed to be creating (as the descriptions are sometimes too vague for me to understand).
 
-You'll learn Rust by solving 100 exercises.\
-You'll go from knowing nothing about Rust to being able to start
-writing your own programs, one exercise at a time.
-
-> [!NOTE]
-> This course has been written by [Mainmatter](https://mainmatter.com/rust-consulting/).\
-> It's one of the trainings in [our portfolio of Rust workshops](https://mainmatter.com/services/workshops/rust/).\
-> Check out our [landing page](https://mainmatter.com/rust-consulting/) if you're looking for Rust consulting or
-> training!
-
-## Getting started
-
-Go to [rust-exercises.com](https://rust-exercises.com) and follow the instructions there
-to get started with the course.
-
-## Requirements
-
-- **Rust** (follow instructions [here](https://www.rust-lang.org/tools/install)).\
-  If `rustup` is already installed on your system, run `rustup update` (or another appropriate command depending on how
-  you installed Rust on your system)
-  to make sure you're running on the latest stable version.
-- _(Optional but recommended)_ An IDE with Rust autocompletion support.
-  We recommend one of the following:
-  - [RustRover](https://www.jetbrains.com/rust/);
-  - [Visual Studio Code](https://code.visualstudio.com) with
-    the [`rust-analyzer`](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) extension.
-
-## Solutions
-
-You can find the solutions to the exercises in
-the [`solutions` branch](https://github.com/mainmatter/100-exercises-to-learn-rust/tree/solutions) of this repository.
-
-# License
-
-Copyright © 2024- Mainmatter GmbH (https://mainmatter.com), released under the
-[Creative Commons Attribution-NonCommercial 4.0 International license](https://creativecommons.org/licenses/by-nc/4.0/).
+I also have exercises from the rust 101 github repo. Which is (I think) 100 exercises, each getting harder and harder (as they work through the rust book the same way we are). I personally just didn't like how these problems have starter code.
