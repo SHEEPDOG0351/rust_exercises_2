@@ -81,4 +81,52 @@
 //     }
 // }
 
-//
+// // Define a struct named Circle with a field radius of type f64.
+// Implement an impl block for Circle that includes:
+// A method area that returns the area of the circle (use the formula: area = π × radius²).
+// A method grow that takes a mutable reference to self and increases the radius by a given f64 amount.
+// In main, create an instance of Circle, print its area, call grow on it, and then print the new area.
+// Use std::f64::consts::PI for the value of π.
+
+// struct Circle {
+//     radius: f64
+// }
+
+// impl Circle {
+//     fn area(&self) -> f64 {
+//         let area: f64 = std::f64::consts::PI * self.radius.powi(2);
+//         (area * 100.0).round() / 100.0
+//     }
+
+//     fn grow(&mut self, increase_amount: f64) -> f64 {
+//         self.radius += increase_amount;
+//         self.area()
+//     }
+// }
+
+// fn main() {
+//     let mut circle1: Circle = Circle { radius: 4.2 };
+//     println!("Area of circle1: {}\nArea With grow on it: {}", circle1.area(), circle1.grow(4.5))
+// }
+
+// Using the Circle struct from Exercise 4, add an associated function named new that takes a radius as a parameter and returns a new instance of Circle.
+// In main, create a new circle using this constructor and print its area.
+
+// #[derive(Debug)]
+// struct Circle {
+//     radius: f64
+// }
+
+// impl Circle {
+//     fn new(radius: f64) -> Circle {
+//         Circle {
+//             radius
+//         }
+//     }
+// }
+
+// fn main() {
+//     let circle_new: Circle = Circle::new(4.4);
+//     println!("Circle 1 has a radius of: {:?}", circle_new)
+// }
+
