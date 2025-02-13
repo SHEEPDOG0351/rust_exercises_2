@@ -500,6 +500,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "enums"
+version = "0.1.0"
+
+[[package]]
 name = "env_filter"
 version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
