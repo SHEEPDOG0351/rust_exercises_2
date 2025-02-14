@@ -71,6 +71,51 @@
 // Implement an impl block for Message that includes a method call(&self) which prints a different message depending on the variant.
 // In main, create one instance of each variant and call the call method on them.
 
-fn main() {
-    
-}
+// #[derive(Debug)]
+// enum Message {
+//     Quit,
+//     Move(i32, i32),
+//     Write(String),
+//     ChangeColor(i32, i32, i32)
+// }
+
+// fn main() {
+//     impl  Message {
+//         fn call(&self) {
+//             match self {
+//                 Message::Quit => println!("Quit Message recieved"),
+//                 Message::ChangeColor(r, g , b ) => println!("Color value recieved"),
+//                 Message::Write(s) => println!("Write recieved"),
+//                 Message::Move(x,y ) => println!("Move value recieved")
+//             }
+//         }
+//     }
+
+//     let quit_message = Message::Quit.call();
+//     let change_color_message = Message::ChangeColor(120, 150, 180).call();
+//     let write_message = Message::Write(String::from("Message")).call();
+//     let move_message = Message::Move(20, 40).call();
+
+//     // Note: Since we declare the var's above with the method call immediately, 
+//     // the method call gets activated upon declaration, thus all of these values getting printed to the console automatically
+// }
+
+// Write a function called double_or_zero that accepts an Option<i32>.
+// If the input is Some(value), return the value multiplied by 2.
+// If the input is None, return 0.
+// In your main function, test the function with Some(10) and None, printing the results.
+
+// fn main() {
+//     fn double_or_zero(number: Option<i32>) -> i32 { // use option when it's valid for the user not to provide a value for a param. Like using a default value for a param in python
+//         match number {
+//             Some(number) => number * 2,
+//             None => 0
+//         }
+//     }
+
+//     let some_value: i32 = double_or_zero(Some(10));
+//     let none_input: Option<i32> = None;
+
+//     println!("Function call with Some(10) as argument: {}\nFunction call with none as input: {:?}", some_value, none_input)
+// }
+
