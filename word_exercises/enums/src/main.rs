@@ -1,3 +1,5 @@
+#[allow(dead_code)]
+
 // Define an Enum called Direction with four variants: North, East, South, and West.
 
 // #[derive(Debug)]
@@ -119,3 +121,89 @@
 //     println!("Function call with Some(10) as argument: {}\nFunction call with none as input: {:?}", some_value, none_input)
 // }
 
+// Exercise 1: Handling Option with if let
+// Task:
+// Write a function called print_username that accepts an Option<&str>.
+
+// If the value is Some(name), print "Username is: <name>".
+// If the value is None, print "No username provided."
+// Use an if let statement to destructure the Option in your function.
+
+// fn main() {
+
+//     fn print_username(condition: Option<&str>) {
+//         if let Some(value) = condition {
+//             println!("Username is: {}", value)
+//         } else {
+//             print!("No username provided")
+//         }
+//     }
+
+//     let test_var1: Option<&str> = Some("Sheepdog0331");
+//     let test_var2: Option<&str> = None;
+
+//     print_username(test_var1);
+//     print_username(test_var2);
+// }
+
+// Define an enum named Operation with the following variants:
+
+// Add(i32, i32)
+// Subtract(i32, i32)
+// Multiply(i32, i32)
+// Write a function called perform_addition that takes an Operation value and uses an if let statement to check if the operation is an Add variant.
+
+// If it is, compute the sum of the two numbers and print "Sum: <result>".
+// Otherwise, print "Not an addition operation."
+
+// enum Operation {
+//     Add(i32, i32),
+//     Subtract(i32, i32),
+//     Multiply(i32, i32)
+// }
+
+// fn main() {
+
+//     fn perform_addition(condition: Operation) {
+//         if let Operation::Add(x, y) = condition {
+//             let sum: i32 = x + y;
+//             println!("Sum: {}", sum)
+//         } else {
+//             print!("Not an addition operation")
+//         }
+//     }
+
+//     let test_var1: Operation = Operation::Add(2, 2);
+//     let test_var2: Operation = Operation::Multiply(4, 4);
+
+//     perform_addition(test_var1);
+//     perform_addition(test_var2);
+// }
+
+// Define an enum called Message with these variants:
+
+// Quit
+// Move { x: i32, y: i32 }
+// Write(String)
+// ChangeColor(i32, i32, i32)
+// In your main function, create a variable of type Message with one of the variants (choose any). 
+// Then, use an if let statement to check if the message is of the Write variant:
+    // If it is, print "Message: <contents>".
+    // Otherwise, do nothing (or you can print "Not a Write message" if you prefer).
+
+// enum Message {
+//     Quit,
+//     Move { x: i32, y: i32 },
+//     Write(String),
+//     ChangeColor(i32, i32, i32)
+// }
+
+// fn main() {
+//     let test_var1: Message = Message::Write(String::from("You're correct"));
+
+//     if let Message::Write(value) = test_var1 {
+//         println!("Message: {}", value)
+//     } else {
+        
+//     }
+// }
