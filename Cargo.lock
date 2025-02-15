@@ -1834,6 +1834,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "restaurant"
+version = "0.1.0"
+
+[[package]]
 name = "runtime"
 version = "0.1.0"
 dependencies = [

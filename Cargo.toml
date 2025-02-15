@@ -4,7 +4,7 @@ members = [
   "helpers/common",
   "helpers/mdbook-exercise-linker",
   "helpers/mdbook-link-shortener",
-  "helpers/ticket_fields", "word_exercises/enums", "word_exercises/method_syntax", "word_exercises/structs",
+  "helpers/ticket_fields", "word_exercises/Managing_Growing_Projects_with_Packages,Crates,and_Modules/7.3 Paths for Referring to an Item in the Module Tree/code", "word_exercises/Managing_Growing_Projects_with_Packages,Crates,and_Modules/Defining modules to Control Scope and Privacy/restaurant", "word_exercises/Managing_Growing_Projects_with_Packages,Crates,and_Modules/Paths for Referring to an Item in the Module Tree/code", "word_exercises/enums", "word_exercises/method_syntax", "word_exercises/structs",
   "word_exercises/understanding_ownership_exercises/exercises"
 ]
 resolver = "2"
